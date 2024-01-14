@@ -1,11 +1,44 @@
-import { AppBar } from "@mui/material";
 import Link from "next/link";
+import styles from "../styles/Navbar.module.css"
 
 export default function Navbar() {
     return(
-        <AppBar className="p-2 flex flex-row flex-wrap bg-blue-300 font-sans uppercase">
-            <Link href="/" className="p-2">home</Link>
-            <Link href="/about" className="p-2">about us</Link>
-        </AppBar>
+        <>
+        <nav className={styles.navbar}>
+            <div >
+               <ul className={styles.navbar_row}>
+                <li>
+                <Link legacyBehavior href="/">
+                    <a>home</a>
+                </Link>
+                </li>
+                <li>
+                <Link legacyBehavior href="/shop">
+                    <a>shop</a>
+                </Link>
+                </li>
+                <li>
+                <Link legacyBehavior href="/antivirus">
+                    <a>antivirus</a>
+                </Link>
+                </li>
+                <li>
+                <Link legacyBehavior href="/laptops">
+                    <a>laptops</a>
+                </Link>
+                </li>
+                <li>
+                <Link legacyBehavior href="/desktops">
+                    <a>desktops</a>
+                </Link>
+                </li>
+               </ul>
+            </div>
+            <div id="brand-logo" className={styles.brand_logo}>
+            brand-logo
+            </div>
+        </nav>
+        
+        </>
     )
 }

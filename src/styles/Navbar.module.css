@@ -1,0 +1,33 @@
+.navbar{position: sticky;
+    top: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 2px black;
+    background-color: aquamarine;
+}
+.navbar_row{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid 2px black;
+    padding:10px;
+}
+.navbar_row a{
+    width: 150px;
+    color:#54b3d6;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    transition:  color .4s  ease-in-out;
+}
+.navbar_row a:hover{
+    color: white;
+}
+
+
+.brand_logo{
+    border: solid 2px black;
+    width: 62%;
+}
