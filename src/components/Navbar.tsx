@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css"
+import Image from "next/image";
 
 export default function Navbar() {
     return(
@@ -35,7 +36,8 @@ export default function Navbar() {
                </ul>
             </div>
             <div id="brand-logo" className={styles.brand_logo}>
-            brand-logo
+            <Image src='/brand_logo2.png' height={45} width={45} alt="brand_logo"></Image>
+            <p className="pl-6">QUIK FIX COMPUTER SOLUTIONS</p>
             </div>
         </nav>
         
