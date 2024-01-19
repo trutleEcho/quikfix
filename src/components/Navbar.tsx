@@ -37,7 +37,7 @@ export default function Navbar() {
             </div>
             <div id="brand-logo" className={styles.brand_logo}>
             <Image src='/brand_logo2.png' height={45} width={45} alt="brand_logo"></Image>
-            <p className="pl-6 ">QUIK FIX COMPUTER SOLUTIONS</p>
+            <p className="pl-6 text-white">QUIK FIX COMPUTER SOLUTIONS</p>
             </div>
         </nav>
         
