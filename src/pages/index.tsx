@@ -54,6 +54,11 @@ export default function Main() {
         </div>
 
       </section>
+      <section style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
+        <Image src="/1.png" alt="1" height={500} width={1000}></Image>
+        <Image src="/2.png" alt="1" height={500} width={1000}></Image>
+        <Image src="/3.png" alt="1" height={500} width={1000}></Image>
+      </section>
       <section style={{display:"flex",height:'190px',alignItems:'center',flexDirection:'row',flexWrap:'wrap'}}>
         <div style={{width:"33.3%",border:'solid black 2px',paddingLeft:'12%',fontSize:'30px'}} >
           Available products
@@ -105,15 +110,7 @@ export default function Main() {
         </div>
 
       </section>
-      <footer>
-        <div>
-          logo
-        </div>
-        <div >
-          <p>Contact us</p>
-
-        </div>
-      </footer>
+      
       </>
   )
 }

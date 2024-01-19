@@ -14,22 +14,22 @@ export default function Navbar() {
                 </Link>
                 </li>
                 <li>
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/Shop">
                     <a>shop</a>
                 </Link>
                 </li>
                 <li>
-                <Link legacyBehavior href="/antivirus">
+                <Link legacyBehavior href="/Antivirus">
                     <a>antivirus</a>
                 </Link>
                 </li>
                 <li>
-                <Link legacyBehavior href="/laptops">
+                <Link legacyBehavior href="/Laptops">
                     <a>laptops</a>
                 </Link>
                 </li>
                 <li>
-                <Link legacyBehavior href="/desktops">
+                <Link legacyBehavior href="/Desktops">
                     <a>desktops</a>
                 </Link>
                 </li>
@@ -37,7 +37,7 @@ export default function Navbar() {
             </div>
             <div id="brand-logo" className={styles.brand_logo}>
             <Image src='/brand_logo2.png' height={45} width={45} alt="brand_logo"></Image>
-            <p className="pl-6">QUIK FIX COMPUTER SOLUTIONS</p>
+            <p className="pl-6 ">QUIK FIX COMPUTER SOLUTIONS</p>
             </div>
         </nav>
         
